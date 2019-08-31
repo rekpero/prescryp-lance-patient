@@ -1445,7 +1445,7 @@ public class BookAmbulanceActivity extends AppCompatActivity
                     .travelMode(AbstractRouting.TravelMode.DRIVING)
                     .withListener(this)
                     .alternativeRoutes(false)
-                    .key("AIzaSyA6WTOATbfP_G36XKBzRyYVRM0D9PHNGb0")
+                    .key("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx")
                     .waypoints(pickupLatLng, destinationLatLng)
                     .build();
             routing.execute();
