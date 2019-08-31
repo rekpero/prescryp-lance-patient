@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group>
+        <item
+            android:id="@+id/nav_your_trip"
+            android:icon="@drawable/emergency_ambulance_black"
+            android:title="Your Trips" />
+        <item
+            android:id="@+id/nav_trip_for_other"
+            android:icon="@drawable/siren_light"
+            android:title="Trips For Other" />
+        <item
+            android:id="@+id/nav_get_support"
+            android:icon="@drawable/customer_service_black"
+            android:title="Get Support" />
+        <item
+            android:id="@+id/nav_payment"
+            android:icon="@drawable/credit_card_black"
+            android:title="Payment" />
+        <item
+            android:id="@+id/nav_promotion"
+            android:icon="@drawable/percentage"
+            android:title="Promotions" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/settings_black"
+            android:title="Settings" />
+    </group>
+
+
+</menu>
