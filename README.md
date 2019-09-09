@@ -16,6 +16,19 @@ The app store data in realtime database in firebase and uses firebase functions 
 
 **Tools**: Android Studio, Sublime
 
+## Features
+
+This app is built on Android Native (Java) which has various features:
+
+- Authentication is done with simple phone number and OTP using firebase authentication.
+- Store data in Firebase Realtime Database.
+- Can track ambulance location in realtime and provide insights like distance and time taken for the ambulance to reach the location.
+- Also have feature like routing and slick animation for realtime tracking of ambulance in realtime.
+- Can view all the previous bookings with all detail regarding the trip.
+- Can calculate price for ambulance depending on the source and destination location distance.
+- Great UI similar to OLA/Uber.
+- Have used various apis related to google map sdk like geolocation, geocoding, routing, gps.
+
 ## Other Modules
 
 This app is depended on another module which takes care of ambulance system and realtime location tracker. The Github link to that app:
